@@ -1,0 +1,9 @@
+@import "addons.scss";
+@import "image_enhancer.scss";
+
+/* This file prefixes all rules with the theme name to avoid causing conflicts with other themes. */
+/* The actual styles should be defined in image_enhancer.scss */
+.image_enhancer {
+  @include addons;
+  @include image_enhancer;
+}
